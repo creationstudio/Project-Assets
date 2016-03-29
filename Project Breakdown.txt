@@ -1,0 +1,62 @@
+Date: 22nd-March-2016
+
+Brain Storm:
+User (Passenger)
+- Is able to make reviews about the vehicle experience along the way.
+- First time registration by providing required bio data
+- View records about your Travel History.
+
+Vehicle Owner
+- After registration an email i sent containing the link to the
+App and a code to register in the App as a vehicle Owner
+- Vehicle owner will be able to view number of scans being taken
+on the Vehicle
+- Vehicle Owner will be able to  add, delete & Edit his Drivers Information
+- Vehicle owner will be able to keep track of Vehicle location.
+- Access settings to allow notifications about Vehicle reviews from the Users.
+- Receive notifications about user Experience using his vehicle through out the day.
+
+
+
+System Admins (Overall System Control)
+- Verification of updated data by vehicle owners
+- Adding Vehicle details...
+- Admin will be able to view a vehicle current position by entering
+the Vehicle ID registered.
+- Can be able to view Registered Mobile Application Users data.
+- Can track USer travel details interms time and vehicles boarded during a specified
+period of time
+- An admin is able to forward User reports To the Police Admin Section for Further
+investigation.
+- View pending Forwarded Reports to Police.
+
+GPS(Global Positioning System)
+- Will provide NMEA data to the system for processing.
+-
+
+Police Admin
+- View forwarded Reports From Trace me Admins
+- Verify USer reports at station with TraceMe Adminforwarded reports.
+- Track particular Vehicle's
+- Veiw Information about vehicles and their Owners.
+- Aprove handled TraceMe Reports
+
+
+GCM (Google Cloud Messaging)
+- Send Notifications to the User Application on the Phone.
+- Receive notification details from the traceMe System.
+
+Google Maps
+- Provide APIU keys for accessing the Maps Services..
+- Display Visual Representations of data Sent by the System
+
+
+
+New Algorithm Section For the Project.
+- An algorithm for Automatically logging out a user after he/she
+is out of range of the Vehicle. This algorithm will base on the current 
+position of the vehicle being emitted by the embedded GPS receiver and the
+GPS on the User mobile PHone. The algorithm Will vary the two locations based
+on a standard distance required for one to be in a vehicle then it will decide
+based on the variations to determine if you are still in or out and then 
+respond accordingly. 
